@@ -119,20 +119,6 @@ class PalomaModel {
                         return TRUE;
                 }
                 else {
-			return FALSE;
-                }
-        }
-
-        public function validate( $data ) {
-                return matchmaker\catches( $data, $this->schema );
-        }
-
-        public function save() {
-                if ( $this->validate( $this->data ) ) {
-                        $this->collection->raw->save( $this->data );
-                        return TRUE;
-                }
-                else {
                         return FALSE;
                 }
         }
