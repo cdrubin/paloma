@@ -1,4 +1,4 @@
-
+<?php
 // paloma
 
 
@@ -149,3 +149,6 @@ class PalomaModel {
                 $this->data = $data->all();
         }
 }
+
+
+?>
