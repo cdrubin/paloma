@@ -1,0 +1,21 @@
+{
+    "name": "cdrubin/paloma",
+    "description": "PHP mongo friendliness",
+    "keywords": ["PHP", "mongo", "validation", "array", "json", "schema", "pattern"],
+    "license": "MIT",
+    "homepage": "https://github.com/cdrubin/paloma",
+    "authors": [
+        {
+            "name": "Daniel Rubin",
+            "email": "daniel@rubin.za.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "files": [
+            "./src/paloma.php"
+        ]
+    }
+}
