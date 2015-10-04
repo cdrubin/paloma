@@ -124,15 +124,17 @@ class PalomaModel {
         }
 
         public function get( $location ) {
-                $data = new xmarcos\Dot\Container( $this->data );
+        	$data = new Dflydev\DotAccessData\Data( $this->data );
+                //$data = new xmarcos\Dot\Container( $this->data );
                 return $data->get( $location );
         }
 
         public function set( $location, $value ) {
-                $data = new xmarcos\Dot\Container( $this->data );
+        	$data = new Dflydev\DotAccessData\Data( $this->data )
+                //$data = new xmarcos\Dot\Container( $this->data );
                 $data->set( $location, $value );
                 echo ( "set val is now: " . $data->get( $location ) );
-                $this->data = $data->all();
+                //$this->data = $data->all();
         }
 }
 
