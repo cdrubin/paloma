@@ -133,7 +133,7 @@ class PalomaModel {
         	$data = new Dflydev\DotAccessData\Data( $this->data );
                 //$data = new xmarcos\Dot\Container( $this->data );
                 $data->set( $location, $value );
-                echo ( "set val is now: " . $data->get( $location ) );
+                echo ( "set val is now: " . $data->get( $location ) . "\n" );
                 $this->data = $data->get( '.' );
         }
 }
