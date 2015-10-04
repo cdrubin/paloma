@@ -12,7 +12,8 @@
     ],
     "require": {
         "php": ">=5.4",
-        "cdrubin/matchmaker": "*"
+        "cdrubin/matchmaker": "*",
+        "dflydev/dot-access-data": ">=1.0.1"
     },
     "autoload": {
         "files": [
